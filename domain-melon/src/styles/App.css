@@ -1,0 +1,347 @@
+.App {
+  height: 100vh;
+  background-color: lightpink;
+  text-align: center;
+  color: white;
+}
+
+p {
+  margin:0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: lightpink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-container {
+  padding-top: 30px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*padding: 10px 10px 10px 10px;*/
+}
+
+.title {
+  margin: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+.subtitle {
+  font-size: 25px;
+  color: darkslategrey;
+}
+
+.left{
+  text-align: left;
+  margin-left: 10%;
+}
+
+.logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.right{
+  display: flex;
+  background: black;
+  border-radius: 16px;
+  padding: 12px 20px;
+  height: 99%;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.content-container {
+  background-color: #a200d6;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.melon-name{
+  background: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    hotpink 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  background-size: 200% auto;
+  text-align: center;
+  /*animation: gradient-animation 4s ease infinite;*/
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorchange 4s ease infinite;
+}
+
+.connect-wallet-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 550px;
+}
+
+.connect-wallet-container img {
+  padding-bottom: 20px;
+}
+
+.connect-wallet-button {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.mint-button {
+  background: -webkit-linear-gradient(left, #ff8177, #cf556c);
+  font-size: 18px;
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin: 20px 10px;
+  border-radius: 20px;
+  padding: 0px 2rem;
+}
+
+.mint-button:disabled{
+  /*background: #550072;*/
+  background-size: 200% 200%;
+  background: -webkit-linear-gradient(left, #ff8177, #550072);
+  animation: gradient-animation 4s ease infinite;
+  margin: 20px 10px;
+  border-radius: 20px;
+  padding: 0px 2rem;
+  /*color: rgb(209, 209, 209);*/
+  cursor: not-allowed;
+}
+
+.mint-button:hover{
+  transform: scale(1.01);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.mint-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.edit-button{
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3px;
+  top: 20px;
+  border: 0px;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.edit-icon{
+  width: 12px;
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.github-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.polygon-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  border: 0;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 26px;
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+input::placeholder {
+  color: gray;
+  letter-spacing: 2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.first-row{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.tld {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  /* left: -70px; */
+  right: 22px;
+  margin: 0;  
+  padding: 0;
+  margin-bottom: 13px;
+}
+
+.mint-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mint-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px 15px;
+  font-size: 18px;
+  background-color: #c4b7fa;
+  color: black;
+  min-width: 150px;
+  max-width: fit-content;
+  box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.2);
+}
+
+/* Different background-colour for every nth mint-item */
+.mint-item:nth-child(2n) {
+  background-color: lightblue;
+}
+
+.mint-item:nth-child(3n) {
+  background-color: lightpink;
+}
+
+.mint-item:nth-child(5n) {
+  background-color: lightgreen;
+}
+.mint-item:hover{
+  transform: scale(1.01);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+.link{
+  color: black;
+  text-decoration: none;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+.underlined:hover{
+  cursor: pointer;
+}
+
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes colorchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
