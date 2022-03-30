@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MelonNameService/static/css/main.2eab5d7c.css",
+    "main.js": "/MelonNameService/static/js/main.fdcdf114.js",
+    "static/media/polygonlogo.png": "/MelonNameService/static/media/polygonlogo.6cde40a9b9119621eb2b.png",
+    "static/media/github-logo.svg": "/MelonNameService/static/media/github-logo.04ed74f38b41cdcbf14f80ae8cd0aa2b.svg",
+    "index.html": "/MelonNameService/index.html",
+    "main.2eab5d7c.css.map": "/MelonNameService/static/css/main.2eab5d7c.css.map",
+    "main.fdcdf114.js.map": "/MelonNameService/static/js/main.fdcdf114.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eab5d7c.css",
+    "static/js/main.fdcdf114.js"
+  ]
+}
