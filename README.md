@@ -8,7 +8,9 @@ Melon Name Service (MNS) is live at https://mj221.github.io/MelonNameService/ on
 
 <hr/>
 
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/50122869/160783062-bf0d07c5-5825-4c7f-96d5-cf6860210630.gif">  
+</p>
 
 <hr/>
 MNS Contract Address:
