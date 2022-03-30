@@ -1,4 +1,4 @@
-# Melon Domain Name Service
+# Melon Name Service (MNS) | Domain Name Service
 
 Melon Name Service (MNS) is a domain name service deployed on the Polygon Mumbai test network. Users can mint their own domain under Melon TLD (top level domain) as an NFT deployed on OpenSea via Infura IPFS.
 
