@@ -33,7 +33,7 @@ module.exports = {
   },
   paths:{
     artifacts: "./domain-melon/src/build",
-    tests: "./test"
+    tests: "./test",
   },
   // gasReporter: {
   //   enabled: (process.env.REPORT_GAS) ? true : false
